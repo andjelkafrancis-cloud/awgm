@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="A haunting and inspiring memoir of survival and resilience from the horrors of Nazi Germany to life under East German dictatorship.">
+  <title>A World Gone Mad: The True Story of Surviving a Dictatorship</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --soft-gray:#f3f3f3;
+      --card-bg:#ffffff;
+      --text:#222;
+      --max-w:900px;
+    }
+    html,body{height:100%;margin:0;}
+    body{
+      font-family:'Playfair Display', serif;
+      background:var(--soft-gray);
+      color:var(--text);
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+    }
+    header.fixed {
+      position:fixed;
+      top:0;
+      left:0;
+      right:0;
+      background:#e9e9e9;
+      padding:18px 12px;
+      text-align:center;
+      box-shadow:0 2px 6px rgba(0,0,0,0.06);
+      z-index:999;
+      font-size:18px;
+      font-weight:600;
+    }
+    main{
+      max-width:var(--max-w);
+      margin:100px auto 60px; /* push below fixed header */
+      padding:24px;
+    }
+    .card{
+      background:var(--card-bg);
+      border-radius:12px;
+      padding:34px;
+      box-shadow:0 8px 28px rgba(0,0,0,0.08);
+    }
+    .title {
+      font-size:28px;
+      margin:0 0 6px;
+    }
+    .byline {
+      font-size:16px;
+      color:#555;
+      margin:0 0 18px;
+    }
+    .top-row {
+      display:flex;
+      gap:28px;
+      align-items:flex-start;
+      flex-wrap:wrap;
+      justify-content:center;
+    }
+    .cover {
+      max-width:260px;
+      width:100%;
+      border-radius:8px;
+      box-shadow:0 6px 18px rgba(0,0,0,0.08);
+    }
+    .meta {
+      flex:1 1 320px;
+      text-align:left;
+    }
+    p { margin:12px 0; font-size:16px; line-height:1.6; color:#222; }
+    .excerpt{
+      font-style:italic;
+      border-left:4px solid #dcdcdc;
+      padding-left:18px;
+      margin-top:18px;
+      color:#444;
+      background: #fafafa;
+      border-radius:6px;
+      padding:18px;
+    }
+    .buy-buttons{
+      margin-top:22px;
+      display:flex;
+      flex-wrap:wrap;
+      gap:12px;
+      align-items:center;
+    }
+    .btn{
+      display:inline-block;
+      padding:12px 18px;
+      border-radius:8px;
+      color:#fff;
+      text-decoration:none;
+      font-weight:700;
+      transition:transform .15s ease,opacity .15s ease;
+    }
+    .btn:active{transform:scale(.99);}
+    .amazon{background:#ff9900;}
+    .strand{background:#c62828;}
+    .barnes{background:#006400;}
+    .harvard{background:#800000;}
+    .btn:hover{opacity:.95;transform:translateY(-3px);}
+    footer{margin-top:28px;text-align:center;color:#666;font-size:14px;}
+    @media(max-width:720px){
+      .top-row{flex-direction:column;align-items:center;}
+      .meta{text-align:center;}
+      .title{font-size:22px;}
+    }
+  </style>
+</head>
+<body>
+  <header class="fixed">A World Gone Mad: The True Story of Surviving a Dictatorship</header>
+
+  <main>
+    <div class="card">
+      <div class="top-row">
+        <img src="gretelbookcover.jpg" alt="A World Gone Mad book cover" class="cover" />
+        <div class="meta">
+          <h1 class="title">A World Gone Mad: The True Story of Surviving a Dictatorship</h1>
+          <div class="byline">By Gretel Timan</div>
+
+          <p><strong>Overview</strong><br>
+          This autobiography is told through the eyes of a child growing into a teen from the last gasping thousand-year empire of Hitler into the equally evil government of East Germany, a life that had no normal childhood and a life of tears and fear and no future. Only being allowed to migrate to the US at age twenty-one changed the author's life.</p>
+
+          <div class="buy-buttons" aria-label="purchase links">
+            <a class="btn amazon" href="https://www.amazon.com/World-Gone-Mad-Surviving-Dictatorship/dp/B0DMTYWHBX" target="_blank" rel="noopener">Buy on Amazon</a>
+            <a class="btn strand" href="https://www.strandbooks.com/a-world-gone-mad-the-true-story-of-surviving-a-dictatorship-9798895530597.html" target="_blank" rel="noopener">Buy on Strand</a>
+            <a class="btn barnes" href="https://www.barnesandnoble.com/w/a-world-gone-mad-gretel-timan/1146544584" target="_blank" rel="noopener">Buy on Barnes & Noble</a>
+            <a class="btn harvard" href="https://www.harvard.com/book/9798895530597" target="_blank" rel="noopener">Buy on Harvard Bookstore</a>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="excerpt" aria-label="excerpt">
+        “Somewhere on this earth or in heaven, there are two lakes formed by my tears. One is called the Lake of Infinite Sorrow. Don’t bathe in it. It is icy cold and bitter. Then there is another lake, the Lake of Infinite Love. Bathing in it will give you peace and healing, empathy and compassion, and strength and joy. Neither gold nor silver nor diamonds nor all the jewels and treasures in the world can heal you when you are wounded. Only the opening of another soul toward you—like the opening of a precious flower fragrant with fearless, non-clinging love, which just is: so rare, so real, so healing can do that.”
+      </div>
+
+      <footer>
+        &copy; 2025 Gretel Timan
+      </footer>
+    </div>
+  </main>
+</body>
+</html>
